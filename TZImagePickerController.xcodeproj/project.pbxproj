@@ -13,6 +13,34 @@
 		6DC358661CC8BAFD00898D29 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6DC358651CC8BAFD00898D29 /* TZImagePickerController.bundle */; };
 		6DC84D0A1DF5358500A107A9 /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC84D091DF5358500A107A9 /* TZImageCropManager.m */; };
 		6DD0502B1DF659ED0057C78D /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0502A1DF659ED0057C78D /* TZProgressView.m */; };
+		7D6F384123FE961200734014 /* SLBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F380323FE961200734014 /* SLBlurView.m */; };
+		7D6F384223FE961200734014 /* SLPaddingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F380423FE961200734014 /* SLPaddingLabel.m */; };
+		7D6F384323FE961200734014 /* SLAvWriterInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F380723FE961200734014 /* SLAvWriterInput.m */; };
+		7D6F384423FE961200734014 /* SLAvEditExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F380823FE961200734014 /* SLAvEditExport.m */; };
+		7D6F384523FE961200734014 /* SLAvCaptureTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F380923FE961200734014 /* SLAvCaptureTool.m */; };
+		7D6F384623FE961200734014 /* SLAvPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F380E23FE961200734014 /* SLAvPlayer.m */; };
+		7D6F384723FE961200734014 /* SLAvCaptureSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F381023FE961200734014 /* SLAvCaptureSession.m */; };
+		7D6F384823FE961200734014 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6F381223FE961200734014 /* WebP.framework */; };
+		7D6F384923FE961200734014 /* SLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F381423FE961200734014 /* SLImageView.m */; };
+		7D6F384A23FE961200734014 /* SLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F381523FE961200734014 /* SLImage.m */; };
+		7D6F384B23FE961200734014 /* SLImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F381623FE961200734014 /* SLImageDecoder.m */; };
+		7D6F384C23FE961200734014 /* SLDelayPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F381A23FE961200734014 /* SLDelayPerform.m */; };
+		7D6F384D23FE961200734014 /* UIView+SLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F381E23FE961200734014 /* UIView+SLFrame.m */; };
+		7D6F384E23FE961200734014 /* UIView+SLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F382223FE961200734014 /* UIView+SLImage.m */; };
+		7D6F384F23FE961200734014 /* UIImage+SLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F382323FE961200734014 /* UIImage+SLCommon.m */; };
+		7D6F385023FE961200734014 /* SLImageClipController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F382723FE961200734014 /* SLImageClipController.m */; };
+		7D6F385123FE961200734014 /* SLEditVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F382923FE961200734014 /* SLEditVideoController.m */; };
+		7D6F385223FE961200734014 /* SLEditImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F382A23FE961200734014 /* SLEditImageController.m */; };
+		7D6F385323FE961200734014 /* SLShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F382D23FE961200734014 /* SLShotViewController.m */; };
+		7D6F385423FE961200734014 /* SLGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F382F23FE961200734014 /* SLGridView.m */; };
+		7D6F385523FE961200734014 /* SLEditTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F383023FE961200734014 /* SLEditTextView.m */; };
+		7D6F385623FE961200734014 /* SLDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F383123FE961200734014 /* SLDrawView.m */; };
+		7D6F385723FE961200734014 /* SLEditMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F383223FE961200734014 /* SLEditMenuView.m */; };
+		7D6F385823FE961200734014 /* SLShotFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F383623FE961200734014 /* SLShotFocusView.m */; };
+		7D6F385923FE961200734014 /* SLMosaicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F383723FE961200734014 /* SLMosaicView.m */; };
+		7D6F385A23FE961200734014 /* SLImageZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F383B23FE961200734014 /* SLImageZoomView.m */; };
+		7D6F385B23FE961200734014 /* SLEditVideoClipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F383D23FE961200734014 /* SLEditVideoClipping.m */; };
+		7D6F385C23FE961200734014 /* SLEditSelectedBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F383E23FE961200734014 /* SLEditSelectedBox.m */; };
 		90020E1320F8840800D3AB10 /* TZImagePickerController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 90020E1220F8840800D3AB10 /* TZImagePickerController.podspec */; };
 		90020E1520F8840F00D3AB10 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 90020E1420F8840E00D3AB10 /* README.md */; };
 		900E65811C2BB8D5003D9A9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 900E65801C2BB8D5003D9A9E /* main.m */; };
@@ -126,6 +154,62 @@
 		6DC84D091DF5358500A107A9 /* TZImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageCropManager.m; sourceTree = "<group>"; };
 		6DD050291DF659ED0057C78D /* TZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
 		6DD0502A1DF659ED0057C78D /* TZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
+		7D6F380223FE961200734014 /* SLPaddingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPaddingLabel.h; sourceTree = "<group>"; };
+		7D6F380323FE961200734014 /* SLBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBlurView.m; sourceTree = "<group>"; };
+		7D6F380423FE961200734014 /* SLPaddingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPaddingLabel.m; sourceTree = "<group>"; };
+		7D6F380523FE961200734014 /* SLBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBlurView.h; sourceTree = "<group>"; };
+		7D6F380723FE961200734014 /* SLAvWriterInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAvWriterInput.m; sourceTree = "<group>"; };
+		7D6F380823FE961200734014 /* SLAvEditExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAvEditExport.m; sourceTree = "<group>"; };
+		7D6F380923FE961200734014 /* SLAvCaptureTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAvCaptureTool.m; sourceTree = "<group>"; };
+		7D6F380A23FE961200734014 /* SLAvPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAvPlayer.h; sourceTree = "<group>"; };
+		7D6F380B23FE961200734014 /* SLAvCaptureSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAvCaptureSession.h; sourceTree = "<group>"; };
+		7D6F380C23FE961200734014 /* SLAvEditExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAvEditExport.h; sourceTree = "<group>"; };
+		7D6F380D23FE961200734014 /* SLAvWriterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAvWriterInput.h; sourceTree = "<group>"; };
+		7D6F380E23FE961200734014 /* SLAvPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAvPlayer.m; sourceTree = "<group>"; };
+		7D6F380F23FE961200734014 /* SLAvCaptureTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAvCaptureTool.h; sourceTree = "<group>"; };
+		7D6F381023FE961200734014 /* SLAvCaptureSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAvCaptureSession.m; sourceTree = "<group>"; };
+		7D6F381223FE961200734014 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		7D6F381323FE961200734014 /* SLImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImageDecoder.h; sourceTree = "<group>"; };
+		7D6F381423FE961200734014 /* SLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImageView.m; sourceTree = "<group>"; };
+		7D6F381523FE961200734014 /* SLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImage.m; sourceTree = "<group>"; };
+		7D6F381623FE961200734014 /* SLImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImageDecoder.m; sourceTree = "<group>"; };
+		7D6F381723FE961200734014 /* SLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImage.h; sourceTree = "<group>"; };
+		7D6F381823FE961200734014 /* SLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImageView.h; sourceTree = "<group>"; };
+		7D6F381A23FE961200734014 /* SLDelayPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDelayPerform.m; sourceTree = "<group>"; };
+		7D6F381B23FE961200734014 /* SLDelayPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDelayPerform.h; sourceTree = "<group>"; };
+		7D6F381C23FE961200734014 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7D6F381E23FE961200734014 /* UIView+SLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLFrame.m"; sourceTree = "<group>"; };
+		7D6F381F23FE961200734014 /* UIImage+SLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SLCommon.h"; sourceTree = "<group>"; };
+		7D6F382023FE961200734014 /* UIView+SLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLImage.h"; sourceTree = "<group>"; };
+		7D6F382123FE961200734014 /* UIView+SLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLFrame.h"; sourceTree = "<group>"; };
+		7D6F382223FE961200734014 /* UIView+SLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLImage.m"; sourceTree = "<group>"; };
+		7D6F382323FE961200734014 /* UIImage+SLCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SLCommon.m"; sourceTree = "<group>"; };
+		7D6F382623FE961200734014 /* SLEditImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditImageController.h; sourceTree = "<group>"; };
+		7D6F382723FE961200734014 /* SLImageClipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImageClipController.m; sourceTree = "<group>"; };
+		7D6F382823FE961200734014 /* SLShotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShotViewController.h; sourceTree = "<group>"; };
+		7D6F382923FE961200734014 /* SLEditVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditVideoController.m; sourceTree = "<group>"; };
+		7D6F382A23FE961200734014 /* SLEditImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditImageController.m; sourceTree = "<group>"; };
+		7D6F382B23FE961200734014 /* SLImageClipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImageClipController.h; sourceTree = "<group>"; };
+		7D6F382C23FE961200734014 /* SLEditVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditVideoController.h; sourceTree = "<group>"; };
+		7D6F382D23FE961200734014 /* SLShotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShotViewController.m; sourceTree = "<group>"; };
+		7D6F382F23FE961200734014 /* SLGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGridView.m; sourceTree = "<group>"; };
+		7D6F383023FE961200734014 /* SLEditTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditTextView.m; sourceTree = "<group>"; };
+		7D6F383123FE961200734014 /* SLDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDrawView.m; sourceTree = "<group>"; };
+		7D6F383223FE961200734014 /* SLEditMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditMenuView.m; sourceTree = "<group>"; };
+		7D6F383323FE961200734014 /* SLImageZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImageZoomView.h; sourceTree = "<group>"; };
+		7D6F383423FE961200734014 /* SLEditSelectedBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditSelectedBox.h; sourceTree = "<group>"; };
+		7D6F383523FE961200734014 /* SLEditVideoClipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditVideoClipping.h; sourceTree = "<group>"; };
+		7D6F383623FE961200734014 /* SLShotFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShotFocusView.m; sourceTree = "<group>"; };
+		7D6F383723FE961200734014 /* SLMosaicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMosaicView.m; sourceTree = "<group>"; };
+		7D6F383823FE961200734014 /* SLDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDrawView.h; sourceTree = "<group>"; };
+		7D6F383923FE961200734014 /* SLGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGridView.h; sourceTree = "<group>"; };
+		7D6F383A23FE961200734014 /* SLEditTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditTextView.h; sourceTree = "<group>"; };
+		7D6F383B23FE961200734014 /* SLImageZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImageZoomView.m; sourceTree = "<group>"; };
+		7D6F383C23FE961200734014 /* SLEditMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditMenuView.h; sourceTree = "<group>"; };
+		7D6F383D23FE961200734014 /* SLEditVideoClipping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditVideoClipping.m; sourceTree = "<group>"; };
+		7D6F383E23FE961200734014 /* SLEditSelectedBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditSelectedBox.m; sourceTree = "<group>"; };
+		7D6F383F23FE961200734014 /* SLMosaicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMosaicView.h; sourceTree = "<group>"; };
+		7D6F384023FE961200734014 /* SLShotFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShotFocusView.h; sourceTree = "<group>"; };
 		90020E1220F8840800D3AB10 /* TZImagePickerController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TZImagePickerController.podspec; sourceTree = SOURCE_ROOT; };
 		90020E1420F8840E00D3AB10 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		900E657C1C2BB8D5003D9A9E /* TZImagePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZImagePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,6 +273,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D6F384823FE961200734014 /* WebP.framework in Frameworks */,
 				903996931F447604005E77C2 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +310,141 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		7D6F37FF23FE961200734014 /* PhotoEdit */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F380023FE961200734014 /* General */,
+				7D6F381D23FE961200734014 /* SLCategory */,
+				7D6F382423FE961200734014 /* SmallVideo */,
+			);
+			path = PhotoEdit;
+			sourceTree = "<group>";
+		};
+		7D6F380023FE961200734014 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F380123FE961200734014 /* UI */,
+				7D6F380623FE961200734014 /* AV */,
+				7D6F381123FE961200734014 /* SLAnimateImageView */,
+				7D6F381923FE961200734014 /* Tool */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		7D6F380123FE961200734014 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F380223FE961200734014 /* SLPaddingLabel.h */,
+				7D6F380323FE961200734014 /* SLBlurView.m */,
+				7D6F380423FE961200734014 /* SLPaddingLabel.m */,
+				7D6F380523FE961200734014 /* SLBlurView.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7D6F380623FE961200734014 /* AV */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F380723FE961200734014 /* SLAvWriterInput.m */,
+				7D6F380823FE961200734014 /* SLAvEditExport.m */,
+				7D6F380923FE961200734014 /* SLAvCaptureTool.m */,
+				7D6F380A23FE961200734014 /* SLAvPlayer.h */,
+				7D6F380B23FE961200734014 /* SLAvCaptureSession.h */,
+				7D6F380C23FE961200734014 /* SLAvEditExport.h */,
+				7D6F380D23FE961200734014 /* SLAvWriterInput.h */,
+				7D6F380E23FE961200734014 /* SLAvPlayer.m */,
+				7D6F380F23FE961200734014 /* SLAvCaptureTool.h */,
+				7D6F381023FE961200734014 /* SLAvCaptureSession.m */,
+			);
+			path = AV;
+			sourceTree = "<group>";
+		};
+		7D6F381123FE961200734014 /* SLAnimateImageView */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F381223FE961200734014 /* WebP.framework */,
+				7D6F381323FE961200734014 /* SLImageDecoder.h */,
+				7D6F381423FE961200734014 /* SLImageView.m */,
+				7D6F381523FE961200734014 /* SLImage.m */,
+				7D6F381623FE961200734014 /* SLImageDecoder.m */,
+				7D6F381723FE961200734014 /* SLImage.h */,
+				7D6F381823FE961200734014 /* SLImageView.h */,
+			);
+			path = SLAnimateImageView;
+			sourceTree = "<group>";
+		};
+		7D6F381923FE961200734014 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F381A23FE961200734014 /* SLDelayPerform.m */,
+				7D6F381B23FE961200734014 /* SLDelayPerform.h */,
+				7D6F381C23FE961200734014 /* PrefixHeader.pch */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		7D6F381D23FE961200734014 /* SLCategory */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F381E23FE961200734014 /* UIView+SLFrame.m */,
+				7D6F381F23FE961200734014 /* UIImage+SLCommon.h */,
+				7D6F382023FE961200734014 /* UIView+SLImage.h */,
+				7D6F382123FE961200734014 /* UIView+SLFrame.h */,
+				7D6F382223FE961200734014 /* UIView+SLImage.m */,
+				7D6F382323FE961200734014 /* UIImage+SLCommon.m */,
+			);
+			path = SLCategory;
+			sourceTree = "<group>";
+		};
+		7D6F382423FE961200734014 /* SmallVideo */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F382523FE961200734014 /* Controller */,
+				7D6F382E23FE961200734014 /* View */,
+			);
+			path = SmallVideo;
+			sourceTree = "<group>";
+		};
+		7D6F382523FE961200734014 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F382623FE961200734014 /* SLEditImageController.h */,
+				7D6F382723FE961200734014 /* SLImageClipController.m */,
+				7D6F382823FE961200734014 /* SLShotViewController.h */,
+				7D6F382923FE961200734014 /* SLEditVideoController.m */,
+				7D6F382A23FE961200734014 /* SLEditImageController.m */,
+				7D6F382B23FE961200734014 /* SLImageClipController.h */,
+				7D6F382C23FE961200734014 /* SLEditVideoController.h */,
+				7D6F382D23FE961200734014 /* SLShotViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7D6F382E23FE961200734014 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F382F23FE961200734014 /* SLGridView.m */,
+				7D6F383023FE961200734014 /* SLEditTextView.m */,
+				7D6F383123FE961200734014 /* SLDrawView.m */,
+				7D6F383223FE961200734014 /* SLEditMenuView.m */,
+				7D6F383323FE961200734014 /* SLImageZoomView.h */,
+				7D6F383423FE961200734014 /* SLEditSelectedBox.h */,
+				7D6F383523FE961200734014 /* SLEditVideoClipping.h */,
+				7D6F383623FE961200734014 /* SLShotFocusView.m */,
+				7D6F383723FE961200734014 /* SLMosaicView.m */,
+				7D6F383823FE961200734014 /* SLDrawView.h */,
+				7D6F383923FE961200734014 /* SLGridView.h */,
+				7D6F383A23FE961200734014 /* SLEditTextView.h */,
+				7D6F383B23FE961200734014 /* SLImageZoomView.m */,
+				7D6F383C23FE961200734014 /* SLEditMenuView.h */,
+				7D6F383D23FE961200734014 /* SLEditVideoClipping.m */,
+				7D6F383E23FE961200734014 /* SLEditSelectedBox.m */,
+				7D6F383F23FE961200734014 /* SLMosaicView.h */,
+				7D6F384023FE961200734014 /* SLShotFocusView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		900E65731C2BB8D5003D9A9E = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +473,7 @@
 			children = (
 				901F228F215CABD600F604ED /* FLAnimatedImage */,
 				900EEFF51C2BBF7600EA709B /* TZImagePickerController */,
+				7D6F37FF23FE961200734014 /* PhotoEdit */,
 				900E65821C2BB8D5003D9A9E /* AppDelegate.h */,
 				900E65831C2BB8D5003D9A9E /* AppDelegate.m */,
 				900E65851C2BB8D5003D9A9E /* ViewController.h */,
@@ -487,7 +708,7 @@
 				TargetAttributes = {
 					900E657B1C2BB8D5003D9A9E = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = LTFQDC2QVX;
+						DevelopmentTeam = RV5S7WJR49;
 						ProvisioningStyle = Automatic;
 					};
 					900E65941C2BB8D5003D9A9E = {
@@ -575,27 +796,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				9038D5911C3974F0007DE549 /* TZTestCell.m in Sources */,
+				7D6F384923FE961200734014 /* SLImageView.m in Sources */,
+				7D6F385023FE961200734014 /* SLImageClipController.m in Sources */,
 				900EF00F1C2C0B1100EA709B /* TZAssetModel.m in Sources */,
+				7D6F385323FE961200734014 /* SLShotViewController.m in Sources */,
 				900EEFFE1C2BD58B00EA709B /* TZPhotoPickerController.m in Sources */,
 				90EBF5D61C2E298000CB9BCC /* UIView+Layout.m in Sources */,
 				90CE84B71C3BABB6003D0779 /* TZVideoPlayerController.m in Sources */,
+				7D6F384A23FE961200734014 /* SLImage.m in Sources */,
+				7D6F385123FE961200734014 /* SLEditVideoController.m in Sources */,
 				900EF0021C2BD7E400EA709B /* TZAssetCell.m in Sources */,
+				7D6F385C23FE961200734014 /* SLEditSelectedBox.m in Sources */,
+				7D6F385B23FE961200734014 /* SLEditVideoClipping.m in Sources */,
+				7D6F384123FE961200734014 /* SLBlurView.m in Sources */,
 				6DD0502B1DF659ED0057C78D /* TZProgressView.m in Sources */,
 				6D32B9BD1CD83640005CE1E0 /* LxGridViewFlowLayout.m in Sources */,
+				7D6F385A23FE961200734014 /* SLImageZoomView.m in Sources */,
 				6D4608311DFFC60D004FB009 /* TZGifPhotoPreviewController.m in Sources */,
 				900EF0161C2C134900EA709B /* TZPhotoPreviewCell.m in Sources */,
+				7D6F384723FE961200734014 /* SLAvCaptureSession.m in Sources */,
+				7D6F384223FE961200734014 /* SLPaddingLabel.m in Sources */,
+				7D6F385523FE961200734014 /* SLEditTextView.m in Sources */,
 				900E65871C2BB8D5003D9A9E /* ViewController.m in Sources */,
+				7D6F384C23FE961200734014 /* SLDelayPerform.m in Sources */,
 				90CE84AE1C3A89EF003D0779 /* TZImageManager.m in Sources */,
 				901F2295215CABD600F604ED /* FLAnimatedImage.m in Sources */,
 				900E65841C2BB8D5003D9A9E /* AppDelegate.m in Sources */,
 				901F2296215CABD600F604ED /* FLAnimatedImageView.m in Sources */,
 				9019FD8D21EC25D7009ADEAE /* TZImageUploadOperation.m in Sources */,
 				900E65811C2BB8D5003D9A9E /* main.m in Sources */,
+				7D6F384423FE961200734014 /* SLAvEditExport.m in Sources */,
 				900EF0121C2C107400EA709B /* TZPhotoPreviewController.m in Sources */,
+				7D6F385723FE961200734014 /* SLEditMenuView.m in Sources */,
+				7D6F384D23FE961200734014 /* UIView+SLFrame.m in Sources */,
+				7D6F385423FE961200734014 /* SLGridView.m in Sources */,
 				901CC3FC21CB758500C55443 /* TZImageRequestOperation.m in Sources */,
+				7D6F384F23FE961200734014 /* UIImage+SLCommon.m in Sources */,
 				6D5358CD1D64600F00928CC6 /* NSBundle+TZImagePicker.m in Sources */,
 				900EEFF81C2BBF9500EA709B /* TZImagePickerController.m in Sources */,
+				7D6F385823FE961200734014 /* SLShotFocusView.m in Sources */,
+				7D6F384E23FE961200734014 /* UIView+SLImage.m in Sources */,
+				7D6F384523FE961200734014 /* SLAvCaptureTool.m in Sources */,
+				7D6F384323FE961200734014 /* SLAvWriterInput.m in Sources */,
+				7D6F384B23FE961200734014 /* SLImageDecoder.m in Sources */,
+				7D6F385623FE961200734014 /* SLDrawView.m in Sources */,
 				902938D81EE2D02C000F2F8F /* TZLocationManager.m in Sources */,
+				7D6F384623FE961200734014 /* SLAvPlayer.m in Sources */,
+				7D6F385223FE961200734014 /* SLEditImageController.m in Sources */,
+				7D6F385923FE961200734014 /* SLMosaicView.m in Sources */,
 				6DC84D0A1DF5358500A107A9 /* TZImageCropManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -719,6 +967,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -773,6 +1022,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -797,19 +1047,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LTFQDC2QVX;
+				DEVELOPMENT_TEAM = RV5S7WJR49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TZImagePickerController",
+					"$(PROJECT_DIR)/TZImagePickerController/PhotoEdit/General/SLAnimateImageView",
 				);
 				INFOPLIST_FILE = TZImagePickerController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.3.1;
-				PRODUCT_BUNDLE_IDENTIFIER = tanzhenios2019.TZImagePickerController.www;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TZImagePickerController.xgj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -821,19 +1072,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LTFQDC2QVX;
+				DEVELOPMENT_TEAM = RV5S7WJR49;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TZImagePickerController",
+					"$(PROJECT_DIR)/TZImagePickerController/PhotoEdit/General/SLAnimateImageView",
 				);
 				INFOPLIST_FILE = TZImagePickerController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.3.1;
-				PRODUCT_BUNDLE_IDENTIFIER = tanzhenios2019.TZImagePickerController.www;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TZImagePickerController.xgj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
